@@ -1,0 +1,37 @@
+{
+  "name": "@ebhoren/penny",
+  "version": "1.0.0",
+  "description": "A collection of small Javascript utilities to build my project faster.",
+  "main": "index.js",
+  "author": "Dominic Mercier",
+  "maintainers": [
+    "ebhoren <d.mercier84@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebhoren/Penny.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebhoren/Penny/issues"
+  },
+  "homepage": "https://github.com/ebhoren/Penny#readme",
+  "scripts": {
+    "test": "jest",
+    "test:debug": "jest --verbose false",
+    "demo": "http-server ./demo/ -s -c -1",
+    "build": "parcel build index.js -d dist/ --no-source-maps --no-cache --global Penny && cp dist/index.js demo/index.js"
+  },
+  "dependencies": {
+    "is_js": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "http-server": "^0.11.1",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.10.3",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
