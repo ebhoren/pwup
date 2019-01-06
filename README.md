@@ -3,7 +3,7 @@ A collection of small Javascript utilities to build my project faster.
 
 
 ## How to use
-
+Editing on the master branch is a bad idea!
 
 
 ## Development
