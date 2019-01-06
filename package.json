@@ -1,21 +1,21 @@
 {
-  "name": "@ebhoren/penny",
+  "name": "@ebhoren/pwup",
   "version": "1.0.0",
   "description": "A collection of small Javascript utilities to build my project faster.",
   "main": "index.js",
   "author": "Dominic Mercier",
   "maintainers": [
-    "ebhoren <d.mercier84@gmail.com>"
+    "ebhoren <d.mercier84@gmail.com> (https://github.com/ebhoren)"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebhoren/Penny.git"
+    "url": "https://github.com/ebhoren/pwup.git"
   },
   "bugs": {
-    "url": "https://github.com/ebhoren/Penny/issues"
+    "url": "https://github.com/ebhoren/pwup/issues"
   },
-  "homepage": "https://github.com/ebhoren/Penny#readme",
+  "homepage": "https://github.com/ebhoren/pwup#readme",
   "scripts": {
     "test": "jest",
     "test:debug": "jest --verbose false",
@@ -33,5 +33,8 @@
     "jest": "^23.6.0",
     "parcel-bundler": "^1.10.3",
     "regenerator-runtime": "^0.12.1"
+  },
+  "engines": {
+    "node": ">=8.1.4"
   }
 }
